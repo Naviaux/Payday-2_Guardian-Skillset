@@ -3,7 +3,7 @@
 	"description"	:	"A completely new skill tree for Payday 2 that implements the Guardian. A class that specializes in holding out areas, and benefits from standing still.",
 	"author"	:	"Naviaux",
 	"contact"	:	"/u/Naviaux-",
-	"version"	:	"devr1",
+	"version"	:	"devr2",
 	"priority"	:	"0",
 	"updates"	:	[
 		{
@@ -23,6 +23,10 @@
 		{
 			"hook_id"	:	"lib/managers/localizationmanager",
 			"script_path"	:	"loc/localization.lua"
+		},
+		{
+			"hook_id"	:	"lib/units/weapons/raycastweaponbase",
+			"script_path"	:	"lua/raycast.lua"
 		}
 	]
 }

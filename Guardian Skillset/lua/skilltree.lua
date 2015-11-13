@@ -12,15 +12,16 @@ function SkillTreeTweakData:init(tweark_data)
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
+				"player_consumption_chance1"
 			},
 			cost = self.costs.unlock_tree,
 			desc_id = "guardian_tier1"
 		},
-		[2] = { upgrades = {}, desc_id = "guardian_tier2"},
-		[3] = { upgrades = {}, desc_id = "guardian_tier3"},
-		[4] = { upgrades = {}, desc_id = "guardian_tier4"},
-		[5] = { upgrades = {}, desc_id = "guardian_tier5"},
-		[6] = { upgrades = {}, desc_id = "guardian_tier6"},
+		[2] = { upgrades = { "player_consumption_chance2" }, desc_id = "guardian_tier2"},
+		[3] = { upgrades = { "player_consumption_chance3" }, desc_id = "guardian_tier3"},
+		[4] = { upgrades = { "player_consumption_chance4" }, desc_id = "guardian_tier4"},
+		[5] = { upgrades = { "player_consumption_chance5" }, desc_id = "guardian_tier5"},
+		[6] = { upgrades = { "player_consumption_chance6" }, desc_id = "guardian_tier6"},
 	}
 	
 	
@@ -365,39 +366,39 @@ function SkillTreeTweakData:init(tweark_data)
 			cost = self.costs.hightierpro
 		}
 	}
-	
-	self.trees[6] = {
+	local n = #self.trees + 1
+	self.trees[n] = {
 		name_id = "guardian_st",
 		skill = "unlock_guardian",
 		background_texture = "guis/textures/pd2/skilltree/bg_technician",
 		tiers = {}
 	}
-	self.trees[6].tiers[1] = {
+	self.trees[n].tiers[1] = {
 		"g_left1",
 		"g_middle1",
 		"g_right1"
 	}
-	self.trees[6].tiers[2] = {
+	self.trees[n].tiers[2] = {
 		"g_left2",
 		"g_middle2",
 		"g_right2"
 	}
-	self.trees[6].tiers[3] = {
+	self.trees[n].tiers[3] = {
 		"g_left3",
 		"g_middle3",
 		"g_right3"
 	}
-	self.trees[6].tiers[4] = {
+	self.trees[n].tiers[4] = {
 		"g_left4",
 		"g_middle4",
 		"g_right4"
 	}
-	self.trees[6].tiers[5] = {
+	self.trees[n].tiers[5] = {
 		"g_left5",
 		"g_middle5",
 		"g_right5"
 	}
-	self.trees[6].tiers[6] = {
+	self.trees[n].tiers[6] = {
 		"g_left6",
 		"g_middle6",
 		"g_right6"

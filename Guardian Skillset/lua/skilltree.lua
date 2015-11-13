@@ -2,13 +2,12 @@ local data = SkillTreeTweakData.init
 function SkillTreeTweakData:init(tweark_data)
 	data(self, tweark_data)
 	
-	self.HIDE_TIER_BONUS = false
-	
 	self.skills.guardian = {}
 	self.skills.guardian.name_id = "m_guardian"
 	self.skills.unlock_guardian = {
 		["name_id"] = "unlock_guardian",
 		["desc_id"] = "unlock_guardian_desc",
+		["texture"] = "guis/textures/lgl_logo",
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
@@ -29,6 +28,7 @@ function SkillTreeTweakData:init(tweark_data)
 	self.skills.g_left1 = {
 		["name_id"] = "g_left1",
 		["desc_id"] = "g_left1_desc",
+		["texture"] = "guis/textures/lgl_logo",
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
@@ -48,6 +48,7 @@ function SkillTreeTweakData:init(tweark_data)
 	self.skills.g_left2 = {
 		["name_id"] = "g_left2",
 		["desc_id"] = "g_left2_desc",
+		["texture"] = "guis/textures/lgl_logo",
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
@@ -67,6 +68,7 @@ function SkillTreeTweakData:init(tweark_data)
 	self.skills.g_left3 = {
 		["name_id"] = "g_left3",
 		["desc_id"] = "g_left3_desc",
+		["texture"] = "guis/textures/lgl_logo",
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
@@ -86,6 +88,7 @@ function SkillTreeTweakData:init(tweark_data)
 	self.skills.g_left4 = {
 		["name_id"] = "g_left4",
 		["desc_id"] = "g_left4_desc",
+		["texture"] = "guis/textures/lgl_logo",
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
@@ -105,6 +108,7 @@ function SkillTreeTweakData:init(tweark_data)
 	self.skills.g_left5 = {
 		["name_id"] = "g_left5",
 		["desc_id"] = "g_left5_desc",
+		["texture"] = "guis/textures/lgl_logo",
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
@@ -124,6 +128,7 @@ function SkillTreeTweakData:init(tweark_data)
 	self.skills.g_left6 = {
 		["name_id"] = "g_left6",
 		["desc_id"] = "g_left6_desc",
+		["texture"] = "guis/textures/lgl_logo",
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
@@ -143,6 +148,7 @@ function SkillTreeTweakData:init(tweark_data)
 	self.skills.g_middle1 = {
 		["name_id"] = "g_middle1",
 		["desc_id"] = "g_middle1_desc",
+		["texture"] = "guis/textures/lgl_logo",
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
@@ -162,6 +168,7 @@ function SkillTreeTweakData:init(tweark_data)
 	self.skills.g_middle2 = {
 		["name_id"] = "g_middle2",
 		["desc_id"] = "g_middle2_desc",
+		["texture"] = "guis/textures/lgl_logo",
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
@@ -181,6 +188,7 @@ function SkillTreeTweakData:init(tweark_data)
 	self.skills.g_middle3 = {
 		["name_id"] = "g_middle3",
 		["desc_id"] = "g_middle3_desc",
+		["texture"] = "guis/textures/lgl_logo",
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
@@ -200,6 +208,7 @@ function SkillTreeTweakData:init(tweark_data)
 	self.skills.g_middle4 = {
 		["name_id"] = "g_middle4",
 		["desc_id"] = "g_middle4_desc",
+		["texture"] = "guis/textures/lgl_logo",
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
@@ -219,6 +228,7 @@ function SkillTreeTweakData:init(tweark_data)
 	self.skills.g_middle5 = {
 		["name_id"] = "g_middle5",
 		["desc_id"] = "g_middle5_desc",
+		["texture"] = "guis/textures/lgl_logo",
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
@@ -238,6 +248,7 @@ function SkillTreeTweakData:init(tweark_data)
 	self.skills.g_middle6 = {
 		["name_id"] = "g_middle6",
 		["desc_id"] = "g_middle6_desc",
+		["texture"] = "guis/textures/lgl_logo",
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
@@ -257,6 +268,7 @@ function SkillTreeTweakData:init(tweark_data)
 	self.skills.g_right1 = {
 		["name_id"] = "g_right1",
 		["desc_id"] = "g_right1_desc",
+		["texture"] = "guis/textures/lgl_logo",
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
@@ -276,6 +288,7 @@ function SkillTreeTweakData:init(tweark_data)
 	self.skills.g_right2 = {
 		["name_id"] = "g_right2",
 		["desc_id"] = "g_right2_desc",
+		["texture"] = "guis/textures/lgl_logo",
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
@@ -295,6 +308,7 @@ function SkillTreeTweakData:init(tweark_data)
 	self.skills.g_right3 = {
 		["name_id"] = "g_right3",
 		["desc_id"] = "g_right3_desc",
+		["texture"] = "guis/textures/lgl_logo",
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
@@ -314,6 +328,7 @@ function SkillTreeTweakData:init(tweark_data)
 	self.skills.g_right4 = {
 		["name_id"] = "g_right4",
 		["desc_id"] = "g_right4_desc",
+		["texture"] = "guis/textures/lgl_logo",
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
@@ -333,6 +348,7 @@ function SkillTreeTweakData:init(tweark_data)
 	self.skills.g_right5 = {
 		["name_id"] = "g_right5",
 		["desc_id"] = "g_right5_desc",
+		["texture"] = "guis/textures/lgl_logo",
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
@@ -352,6 +368,7 @@ function SkillTreeTweakData:init(tweark_data)
 	self.skills.g_right6 = {
 		["name_id"] = "g_right6",
 		["desc_id"] = "g_right6_desc",
+		["texture"] = "guis/textures/lgl_logo",
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
@@ -370,7 +387,7 @@ function SkillTreeTweakData:init(tweark_data)
 	self.trees[n] = {
 		name_id = "guardian_st",
 		skill = "unlock_guardian",
-		background_texture = "guis/textures/pd2/skilltree/bg_technician",
+		background_texture = "guis/textures/505games_df",
 		tiers = {}
 	}
 	self.trees[n].tiers[1] = {

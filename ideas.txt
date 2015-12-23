@@ -1,0 +1,66 @@
+LMG Skills
+	Accuracy  -- Bipod
+	Stability -- Bipod
+	Damage - done
+	Reload Speed - done
+	Firerate - done
+	
+Sniper Skills
+	Headshot Damage
+	Reload Speed
+	Stacking Damage Buff
+	
+Standing Skills
+	Armor Buff - done
+	Damage Buff - done
+	Crit Increase - done
+	Suppression Resist - done
+	Armor Delay Buff - done
+	Ammo Pickup Strength - done
+
+Shooting Skills
+	Headshot Ammo Return
+	Headshot Armor Recovery Buff -- bullseye
+	
+Hostage Skills
+	Hostages for Armor Buff - done
+	
+Armor Interlocking: T2
+	B: 20% Standing Armor Bonus (5s)
+
+Armor Maintenance: T3
+	B: 20% Standing Armor Regen Speed (5s)
+	A: 40% Standing Suppression Resist (5s)
+	A: 40% Standing Armor Bonus (5s)
+	
+Critical Acclaim: T4
+	B: 0.5% Standing Crit (1/s !< 15%)
+	A: 1% Standing Crit (1/s !< 15%)
+
+Belt Handling: T4
+	B: 20% LMG Reload Speed
+	A: 33% LMG Firerate
+
+Respite: T4
+	B: 75% Movespeed for 2.5s (>5s)
+	A: 75% Movespeed for 5s (>5s)
+	
+Stopping Power: T5
+	B: +15 LMG Damage
+	A: +33% LMG Damage
+	
+Calming Experience: T5
+	B: 15% Standing Damage Bonus (5s)
+	A: 30% Standing Damage Bonus (5s)
+	
+Hostage Barricade: T6
+	B: 2.5% Armor per Hostage (10)
+	A: 5% Armor per Hostage (10)
+	
+Ammo Efficiency: T6
+	B: 0.1% Standing Ammo Pickup Bonus (1/s !< 2x)
+	A: 0.2% Standing Ammo Pickup Bonus (1/s !< 4x)
+	
+Tap Shooting: T6
+	B: 10% Chance -1 Ammo Consumption on Headshot (4s CD)
+	A: 20% Chance -1 Ammo Consumption on Headshot (4s CD)

@@ -20,8 +20,9 @@ function SkillTreeTweakData:init(tweark_data)
 		[3] = { upgrades = { "player_consumption_chance3" }, desc_id = "guardian_tier3"},
 		[4] = { upgrades = { "player_consumption_chance4" }, desc_id = "guardian_tier4"},
 		[5] = { upgrades = { "player_consumption_chance5" }, desc_id = "guardian_tier5"},
-		[6] = { upgrades = { "player_consumption_chance6" }, desc_id = "guardian_tier6"}
+		[6] = { upgrades = { "player_consumption_chance6" }, desc_id = "guardian_tier6"},
 	}
+	
 	
 	-- TIER 1	[ -- ]	LEFT --
 	self.skills.g_left1 = {
@@ -31,13 +32,13 @@ function SkillTreeTweakData:init(tweark_data)
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
-				"lmg_reload_speed"
+				"player_silent_kill"
 			},
 			cost = self.costs.default
 		},
 		[2] = {
 			upgrades = {
-				"lmg_firerate"
+				"player_silent_kill"
 			},
 			cost = self.costs.pro
 		}
@@ -51,13 +52,13 @@ function SkillTreeTweakData:init(tweark_data)
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
-				"tmp_standing_armor_bonus1"
+				"player_silent_kill"
 			},
 			cost = self.costs.default
 		},
 		[2] = {
 			upgrades = {
-				"tmp_standing_armor_bonus2"
+				"player_silent_kill"
 			},
 			cost = self.costs.pro
 		}
@@ -142,7 +143,7 @@ function SkillTreeTweakData:init(tweark_data)
 			cost = self.costs.hightierpro
 		}
 	}
-
+	
 	-- TIER 1	[ -- ]	MIDDLE --
 	self.skills.g_middle1 = {
 		["name_id"] = "g_middle1",
@@ -151,13 +152,13 @@ function SkillTreeTweakData:init(tweark_data)
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
-				"player_crit_chance_1"
+				"player_silent_kill"
 			},
 			cost = self.costs.default
 		},
 		[2] = {
 			upgrades = {
-				"player_crit_chance_2"
+				"player_silent_kill"
 			},
 			cost = self.costs.pro
 		}
@@ -171,13 +172,13 @@ function SkillTreeTweakData:init(tweark_data)
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
-				"hostage_armor_increase_1"
+				"player_silent_kill"
 			},
 			cost = self.costs.default
 		},
 		[2] = {
 			upgrades = {
-				"hostage_armor_increase_2"
+				"player_silent_kill"
 			},
 			cost = self.costs.pro
 		}
@@ -191,13 +192,13 @@ function SkillTreeTweakData:init(tweark_data)
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
-				"tmp_standing_damage_bonus1"
+				"player_silent_kill"
 			},
 			cost = self.costs.default
 		},
 		[2] = {
 			upgrades = {
-				"tmp_standing_damage_bonus2"
+				"player_silent_kill"
 			},
 			cost = self.costs.pro
 		}
@@ -271,13 +272,13 @@ function SkillTreeTweakData:init(tweark_data)
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
-				"lmg_damage_addend"
+				"player_silent_kill"
 			},
 			cost = self.costs.default
 		},
 		[2] = {
 			upgrades = {
-				"lmg_damage_multi"
+				"player_silent_kill"
 			},
 			cost = self.costs.pro
 		}
@@ -291,13 +292,13 @@ function SkillTreeTweakData:init(tweark_data)
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
-				"tmp_armor_delay_multiplier"
+				"player_silent_kill"
 			},
 			cost = self.costs.default
 		},
 		[2] = {
 			upgrades = {
-				"tmp_standing_suppression_resist"
+				"player_silent_kill"
 			},
 			cost = self.costs.pro
 		}
@@ -311,14 +312,13 @@ function SkillTreeTweakData:init(tweark_data)
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
-				"player_ammo_pickup_multiplier1",
-				"tmp_all_pickups_have_multiplier2"
+				"player_silent_kill"
 			},
 			cost = self.costs.default
 		},
 		[2] = {
 			upgrades = {
-				"player_ammo_pickup_multiplier2"
+				"player_silent_kill"
 			},
 			cost = self.costs.pro
 		}

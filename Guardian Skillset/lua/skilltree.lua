@@ -71,13 +71,13 @@ function SkillTreeTweakData:init(tweark_data)
 		["icon_xy"] = {0, 0},
 		[1] = {
 			upgrades = {
-				"player_silent_kill"
+				"tmp_player_movespeed_bonus1"
 			},
 			cost = self.costs.default
 		},
 		[2] = {
 			upgrades = {
-				"player_silent_kill"
+				"tmp_player_movespeed_bonus2"
 			},
 			cost = self.costs.pro
 		}

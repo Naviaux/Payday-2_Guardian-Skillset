@@ -3,11 +3,11 @@
 	"description"	:	"A completely new skill tree for Payday 2 that implements the Guardian. A class that specializes in holding out areas, and benefits from standing still.",
 	"author"	:	"Naviaux",
 	"contact"	:	"/u/Naviaux-",
-	"version"	:	"devr9",
+	"version"	:	"devr10",
 	"priority"	:	"0",
 	"updates"	:	[
 		{
-			"revision"	:	9,
+			"revision"	:	10,
 			"identifier"	:	"guardian"
 		},
 		{

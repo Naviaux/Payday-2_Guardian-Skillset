@@ -5,7 +5,22 @@ Hooks:PostHook(PlayerStandard, "update", "Guardian_PlayerStandardUpdate", functi
 	self:_update_critical_chance(self, t, dt)
 	self:_update_standing_damage(self, t, dt)
 	self:_update_ammo_buff(self, t, dt)
+	self:_update_movespeed_bonus(self, t, dt)
 end)
+
+function PlayerStandard:_update_movespeed_bonus(self, t, dt)
+	local action_forbidden = not managers.player:has_category_upgrade("temporary", "player_movespeed_bonus") or self:_on_zipline() or self._moving or self:running() or self:in_air() or not tweak_data.player.player_movespeed_buff
+	if action_forbidden then
+		if self._state_data.standing_ms_t then
+			self._state_data.standing_ms_t = nil
+		end
+		return
+	end
+	self._state_data.standing_ms_t = self._state_data.standing_ms_t or t + tweak_data.player.player_movespeed_buff.start_t
+	if t >= self._state_data.standing_ms_t then
+		managers.player:activate_temporary_upgrade("temporary", "player_movespeed_bonus")
+	end
+end
 
 function PlayerStandard:_update_standing_damage(self, t, dt)
 	local action_forbidden = not managers.player:has_category_upgrade("temporary", "standing_damage_bonus") or managers.player:current_state() == "civilian" or self:_interacting() or self:is_deploying() or self:_on_zipline() or self._moving or self:running() or self:in_air() or not tweak_data.player.standing_damage

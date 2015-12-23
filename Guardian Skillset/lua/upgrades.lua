@@ -86,6 +86,28 @@ function UpgradesTweakData:init(tweak_data)
 		{true, 3},
 		{true, 6}
 	}
+	self.values.temporary.player_movespeed_bonus = {
+		{1.75, 2.5},
+		{1.75, 5}
+	}
+	self.definitions.tmp_player_movespeed_bonus1 = {
+		category = "temporary",
+		name_id = "tmp_player_movespeed_bonus1",
+		upgrade = {
+			category = "temporary",
+			upgrade = "player_movespeed_bonus",
+			value = 1
+		}
+	}
+	self.definitions.tmp_player_movespeed_bonus2 = {
+		category = "temporary",
+		name_id = "tmp_player_movespeed_bonus2",
+		upgrade = {
+			category = "temporary",
+			upgrade = "player_movespeed_bonus",
+			value = 2
+		}
+	}
 	self.definitions.tmp_all_pickups_have_multiplier1 = {
 		category = "temporary",
 		name_id = "tmp_all_pickups_have_multiplier1",

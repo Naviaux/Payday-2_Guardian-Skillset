@@ -17,4 +17,6 @@ function PlayerTweakData:init()
 	self.ammo_buff = {}
 	self.ammo_buff.start_t = 5
 	self.ammo_buff.interval_t = 1
+	self.player_movespeed_buff = {}
+	self.player_movespeed_buff.start_t = 5
 end
